@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(start:*)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":3000\")",
+      "Bash(dir:*)"
+    ],
+    "deny": []
+  }
+}
